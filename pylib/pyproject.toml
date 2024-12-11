@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BASIC_changepoint"
+version = "0.1.0"  # Adjust per __version__
+description = "BASIC (Bayesian Analysis of SImultaneous Changepoints)"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Tim Hopper", email = "tim@example.com"}]
+dependencies = ["numpy"]
